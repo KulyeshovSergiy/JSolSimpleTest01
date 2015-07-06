@@ -79,7 +79,7 @@ public class Processor {
     	
     	
     	if(totalEOItems>iLimit){
-    		throw new RuntimeException("Number of elements in 'expectedOutput' exceed the 'Limit'.");
+    		throw new InvalidStateException("Number of elements in 'expectedOutput' exceed the 'Limit'.");
     	}
     	
     	//Insert in mustBeEqualTo all which found in expectedOutput from the beginning
