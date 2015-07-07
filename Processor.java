@@ -98,7 +98,7 @@ public class Processor {
     			for(int i=0;i<kolvoEOItems;i++){
     				mustBeEqualTo.addLast((Double) oneEOItem.getValue());
     			}
-    			oneMBETItem = mustBeEqualTo.getLast();
+    			//oneMBETItem = mustBeEqualTo.getLast();
     		}else if(oneEOItem.getValue().compareTo(oneMBETItem.getValue())<0){
 
     			for(int i=0;i<kolvoEOItems;i++){
