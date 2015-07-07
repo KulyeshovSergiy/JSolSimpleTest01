@@ -104,7 +104,7 @@ namespace DiffProcessor
     			for(int i=0;i<kolvoEOItems;i++){
     				mustBeEqualTo.AddLast(oneEOItem.Value);
     			}
-    			oneMBETItem = mustBeEqualTo.Last;
+    			//oneMBETItem = mustBeEqualTo.Last;
     		}else if(oneEOItem.Value.CompareTo(oneMBETItem.Value)<0){
 
     			for(int i=0;i<kolvoEOItems;i++){
